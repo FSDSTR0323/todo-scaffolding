@@ -5,7 +5,11 @@ const tasks = [
     {
         id: 1,
         task: "Preparar la clase de Nuclio",
-        dueDate: "2023/04/20"
+        dueDate: "2023/04/20 18:30:00",
+        status: "PENDING",
+        createdAt: "2023/04/15 18:30:00",
+        modifiedAt: null,
+        deletedAt: null,
     },
     {
         id: 2,
