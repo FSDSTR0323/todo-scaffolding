@@ -51,9 +51,6 @@ const tasks = [
 ]
 
 router.get('/:id?', (req, res) => {
-
-    if (req.params.color!==null) {}
-
     res.send(tasks)
   })
 
