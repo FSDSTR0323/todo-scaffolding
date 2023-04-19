@@ -1,5 +1,7 @@
 # API ToDo APP
 
+Este es un ejemplo para empezar a programar la API de la aplicación de tareas (ToDo APP)
+
 ## GET /tasks/:id?
 
 ### Parameters
@@ -64,7 +66,7 @@ body:
     }
 ```
 
-## DELETE /tasks/:id?
+## DELETE /tasks/:id
 
 ### Responses
 
@@ -78,7 +80,7 @@ body:
 {msg: "ok"}
 ```
 
-## PUT (o PATCH) /tasks/:id?
+## PUT (o PATCH) /tasks/:id
 
 ### Parameters
 
