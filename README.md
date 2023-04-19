@@ -1,6 +1,7 @@
 # API ToDo APP
 
 ## GET /tasks/:id?
+
 query params:
 - datemin
 - datemax
@@ -28,6 +29,7 @@ query params:
 ```
 
 ## POST /tasks/
+
 body:
 ```
     {
@@ -66,7 +68,8 @@ body:
 {msg: "ok"}
 ```
 
-## PUT (o PATCH) /tasks/:id?
+## PUT (o PATCH) /tasks/:id?
+
 body: 
 ```
     {
