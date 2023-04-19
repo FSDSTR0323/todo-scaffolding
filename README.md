@@ -2,11 +2,15 @@
 
 ## GET /tasks/:id?
 
-query params:
+### Parameters
+
+Query params
 - datemin
 - datemax
 - search
 - status: "COMPLETED", "IN PROGRESS", "PENDING", "POSTPONED", "DELETED"
+
+### Responses
 
 404 
 ```
@@ -30,6 +34,8 @@ query params:
 
 ## POST /tasks/
 
+### Parameters
+
 body:
 ```
     {
@@ -37,6 +43,8 @@ body:
         dueDate: ...,
     }
 ```
+
+### Responses
 
 400 
 ```
@@ -58,6 +66,8 @@ body:
 
 ## DELETE /tasks/:id?
 
+### Responses
+
 404 
 ```
 {msg: "task not exist"}
@@ -70,6 +80,8 @@ body:
 
 ## PUT (o PATCH) /tasks/:id?
 
+### Parameters
+
 body: 
 ```
     {
@@ -78,6 +90,8 @@ body:
         status: ...,
     }
 ```
+
+### Responses
 
 404 
 ```
