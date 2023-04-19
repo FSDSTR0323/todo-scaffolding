@@ -21,12 +21,7 @@ const tasks = [
         id: 4,
         task: "Celebrar la navidad",
         dueDate: "2023/12/25"
-    },
-    {
-        id: 5,
-        task: "Test",
-        dueDate: "2023/12/25"
-    },
+    }
 ]
 
 router.get('/', (req, res) => {
