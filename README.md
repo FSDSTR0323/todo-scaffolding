@@ -10,6 +10,7 @@ query params:
 404 `{msg: "No se han encontrado tareas"}`
 
 200 
+```
     [
     {
         id: ...,
@@ -21,17 +22,21 @@ query params:
         deletedAt: ...,
     }, ...
     ]
+```
 
 ## POST /tasks/
 body:
+```
     {
         task: ...,
         dueDate: ...,
     }
+```
 
 400 `{msg: "task exist"}`
 
 200 
+```
     {
         id: ...,
         task: ...,
@@ -41,6 +46,7 @@ body:
         modifiedAt: ...,
         deletedAt: ...,
     }
+```
 
 ## DELETE /tasks/:id?
 
@@ -50,15 +56,18 @@ body:
 
 ## PUT (o PATCH) /tasks/:id?
 body: 
+```
     {
         task: ...,
         dueDate: ...,
         status: ...,
     }
+```
 
 404 `{msg: "task not exist"}`
 
 200 
+```
     {
         id: ...,
         task: ...,
@@ -68,6 +77,7 @@ body:
         modifiedAt: ...,
         deletedAt: ...,
     }
+```
 
 
 
