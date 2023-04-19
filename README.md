@@ -7,7 +7,10 @@ query params:
 - search
 - status: "COMPLETED", "IN PROGRESS", "PENDING", "POSTPONED", "DELETED"
 
-404 `{msg: "No se han encontrado tareas"}`
+404 
+```
+{msg: "No se han encontrado tareas"}
+```
 
 200 
 ```
@@ -33,7 +36,10 @@ body:
     }
 ```
 
-400 `{msg: "task exist"}`
+400 
+```
+{msg: "task exist"}
+```
 
 200 
 ```
@@ -50,9 +56,15 @@ body:
 
 ## DELETE /tasks/:id?
 
-404 `{msg: "task not exist"}`
+404 
+```
+{msg: "task not exist"}
+```
 
-200 `{msg: "ok"}`
+200 
+```
+{msg: "ok"}
+```
 
 ## PUT (o PATCH) /tasks/:id?
 body: 
@@ -64,7 +76,10 @@ body:
     }
 ```
 
-404 `{msg: "task not exist"}`
+404 
+```
+{msg: "task not exist"}
+```
 
 200 
 ```
